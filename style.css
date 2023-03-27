@@ -1,0 +1,184 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(30, 38%, 92%);
+    font-weight: 900;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 800px;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+.centro{
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    background-color: hsl(0, 0%, 100%);
+    width: 550px;
+    height: 420px;
+    border-radius: 10px;
+}
+img{
+    float: left;
+    width: 290px;
+    height: 420px;
+    margin-right: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.perfume{
+    margin-top: 30px;
+    margin-bottom: -20px;
+}
+h1{
+    font-weight: 900;
+    font-size: 1.8rem;
+}
+.texto-perfume{
+    font-size: 14px;
+}
+.text{
+    font-size: 12px;
+    margin-top: 0;
+    padding-left: 315px;
+    padding-right: 20px;
+}
+.btn{
+    float:inline-end;
+    width: 210px;
+    height: 40px;
+    margin-top: 10px;
+    margin-right: 2px;
+    border-radius: 10px;
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    color: white;
+}
+i{
+    margin-right: 10px;
+    color: white;
+}
+.preco1{
+    font-size: 30px;
+    float: left;
+    margin: 0;
+    color: hsl(158, 36%, 37%);
+}
+.preco2{
+    display: inline ;
+    float: right;
+    text-decoration: line-through;
+    font-size: 15px;
+    margin-right: 40px;
+}
+
+@media screen and (max-width: 800px) {
+
+    .centro{
+      width: 100%;
+      height: auto;
+      padding: 20px;
+    }
+  
+    img{
+      float: none;
+      margin: 0 auto;
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 0;
+      margin-bottom: 20px;
+    }
+  
+    .text{
+      padding: 0;
+      text-align: center;
+      font-size: 16px;
+    }
+  
+    .btn{
+      float: none;
+      display: block;
+      width: 100%;
+      margin-top: 20px;
+      margin-right: 0;
+    }
+  
+    .preco1{
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+  
+    .preco2{
+      display: block;
+      float: none;
+      font-size: 12px;
+      margin-right: 0;
+    }
+  
+  }
+  @media only screen and (min-width: 375px) and (max-width: 800px) {
+    body {
+    font-size: 16px;
+    }
+    
+    .attribution {
+    margin-top: 100vh;
+    }
+    
+    .centro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 550px;
+    height: auto;
+    min-height: 420px;
+    border-radius: 10px;
+    }
+    
+    img {
+    float: none;
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    }
+    .perfume{
+        margin-top: 30px;
+        margin-bottom: -20px;
+    }
+    h1 {
+    font-size: 1.6rem;
+    }
+    .texto-perfume{
+        font-size: 14px;
+    }
+    .text {
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 20px;
+    }
+    
+    .btn {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    }
+    .preco1 {
+    font-size: 40px;
+    margin-left: 100px;
+    }
+    
+    .preco2 {
+    font-size: 20px;
+    }
+    }
